@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1e7d87</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="checked">#FF5757</color>
+    <color name="unchecked">#FFCC74</color>
+    <color name="hint">#ececec</color>
+    <color name="primary_button">#f15958</color>
+    <color name="progress_inactive">#4c4c4c</color>
+    <color name="progress_start">#fd5749</color>
+    <color name="progress_center">#eea024</color>
+    <color name="progress_end">#1dca92</color>
+</resources>

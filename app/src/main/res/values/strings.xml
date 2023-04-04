@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Legendary Saiyan Wallpapers</string>
+    <string name="wallpapers">Wallpapers</string>
+    <string name="dragon_ball_z">Dragon Ball Z</string>
+    <string name="db_legends">DB Legends</string>
+    <string name="dokkan_battle">Dokkan Battle</string>
+    <string name="search_for_wallpapers">Search for wallpapers</string>
+    <string name="set_wallpaper">Set Wallpaper</string>
+
+</resources>

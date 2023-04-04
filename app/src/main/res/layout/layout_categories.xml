@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_8ssp"
+    android:scrollbars="none">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/categoriesChipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:selectionRequired="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDragonBallZ"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:checked="true"
+            android:includeFontPadding="false"
+            android:text="@string/dragon_ball_z"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDbLegends"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/db_legends"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list"/>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDokkanBattle"
+            style="@style/Widget.MaterialComponents.Chip.Choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_regular"
+            android:includeFontPadding="false"
+            android:text="@string/dokkan_battle"
+            android:textColor="@color/text_color_chip_state_list"
+            android:textSize="@dimen/_12ssp"
+            app:chipBackgroundColor="@color/background_color_chip_state_list"/>
+
+    </com.google.android.material.chip.ChipGroup>
+
+</HorizontalScrollView>
